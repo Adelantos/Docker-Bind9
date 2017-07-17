@@ -1,4 +1,4 @@
-FROM debian:8.7
+FROM debian:9
 
 RUN apt-get update && apt-get install -y bind9 && rm -rf /var/lib/apt/lists/* 
 
